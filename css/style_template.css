@@ -173,14 +173,14 @@ dl dd {
 .card {
     padding: 10px;
     border: 2px solid #4D2A17;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
 }
 
 .card img {
-    display: flex;
+    display: block;
     width: 96%;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    align-items: center;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
 }
 
 .card h3 {
