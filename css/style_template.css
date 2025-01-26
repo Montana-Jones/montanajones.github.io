@@ -1,0 +1,261 @@
+/* General Styles */
+body {
+    background-color: #E7DDC5;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Nav Styles */
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+
+    background-color: #223127;
+    color: #FDF9ED;
+    padding: 0px 20px;
+    margin: 0;
+
+    box-sizing: border-box;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+nav p, nav a {
+    font-size: 28px;
+    font-family: "La Belle Aurore", serif;
+    color: #FDF9ED;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FDF9ED;
+}
+
+nav a:hover {
+    color: #ECC046;
+    text-decoration-line: underline;
+    text-decoration-color: #ECC046;
+    text-decoration-thickness: 1px;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #223127;
+    
+    font-size: 24px;
+    font-family: "La Belle Aurore", serif;
+    color: #FDF9ED;
+    box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.3);
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "La Belle Aurore", serif;
+    color: #FDF9ED;
+    margin: 8px;
+}
+
+footer a:hover {
+    color: #ECC046;
+    text-decoration-line: underline;
+    text-decoration-color: #ECC046;
+    text-decoration-thickness: 1px;
+}
+
+/* Splash Section */
+.splash {
+    text-align: center;
+    padding-bottom: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.splash h1 {
+    text-align: center;
+}
+
+.splash img {
+    margin: 0;
+    padding: 0;
+    border-radius: 150px;
+}
+
+.splash p {
+    font-size: 20px;
+    font-family: 'Garamond', serif;
+    padding: 10px 20px;
+}
+
+/* Horizontal Rules */
+hr {
+    border-color: #4D2A17;
+    border-radius: 8px;
+    border-style: solid;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.9);
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* Section Headings */
+section h2 {
+    font-size: 32px;
+    font-family: 'Prata', serif;
+    color: #4D2A17;
+    padding: 0 0 0 10px;
+}
+
+/* Paragraph Styles */
+section p {
+    font-size: 20px;
+    font-family: 'Garamond', serif;
+    padding: 0 0 0 20px;
+}
+
+/* link styles */
+section a {
+    text-decoration: none;
+    color: black;
+}
+section a:hover {
+    color: #ECC046;
+    text-decoration-line: underline;
+    text-decoration-color: #ECC046;
+    text-decoration-thickness: 1px;
+}
+
+/* List Styles */
+ul {
+    font-size: 20px;
+    font-family: 'Garamond', serif;
+    padding: 0 0 0 50px;
+}
+
+dl {
+    font-size: 20px;
+    font-family: 'Garamond', serif;
+    padding: 0 0 0 10px;
+}
+dl dt {
+    text-decoration-line: underline;
+    text-decoration-color: #6B0F1A;
+    text-decoration-thickness: 1px;
+    padding: 0 0 0 20px;
+}
+
+dl dd {
+    padding: 0 0 0 20px;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 0 10px 60px 10px;
+}
+
+.card {
+    padding: 1em;
+    border: 2px solid #4D2A17;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+    width: 96%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    align-items: center;
+}
+
+.card h3 {
+    font-size: 24px;
+    font-family: 'Prata', serif;
+    color: #CB9E36;
+    padding: 0;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: grid;
+    grid-template-columns: 1;
+    padding: 20px 90px;
+    margin-top: 10px;
+}
+
+form {
+    width: 30%;
+    font-size: 20px;
+    font-family: 'Garamond', serif;
+}
+
+form input, form textarea {
+    font-size: 20px;
+    font-family: 'Garamond', serif;
+    padding: 10px;
+}
+
+form input:focus, form textarea:focus {
+    width: 125%;
+    border: 2px solid #CB9E36;
+    outline: none;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    background-color: default;
+}
+
+form button {
+    font-size: 20px;
+    font-family: 'Garamond', serif;
+    width: 30%;
+    margin-top: 16px;
+    padding: 4px;
+}
+
+form button:hover {
+    font-size: 120%;
+    font-weight: bold;
+    border: 2px solid #CB9E36;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 56px;
+    font-family: 'La Belle Aurore', serif;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0px 0px 10px;
+    color: #CB9E36;
+}
+
+h2 {
+    font-size: 32px;
+    font-family: 'Prata', serif;
+    padding: 0 0 0 10px;
+    color: #4D2A17;
+}
+
+h3 {
+    font-size: 32px;
+    font-family: 'La Belle Aurore', serif;
+    color: #CB9E36;
+    text-align: center;
+    padding: 0 0 22% 0;
+}
+
+#center {
+    text-align: center;
+}
