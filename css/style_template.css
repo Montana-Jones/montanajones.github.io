@@ -171,12 +171,13 @@ dl dd {
 }
 
 .card {
-    padding: 1em;
+    padding: 10px;
     border: 2px solid #4D2A17;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
 }
 
 .card img {
+    display: flex;
     width: 96%;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     align-items: center;
