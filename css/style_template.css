@@ -155,10 +155,12 @@ dl {
     grid-template-columns: 2fr 1fr;
     font-size: 20px;
     font-family: 'Garamond', serif;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 20px;
+    gap: 20px;
     
 }
 dl dt {
+    font-weight: bold;
     text-decoration-line: underline;
     text-decoration-color: #6B0F1A;
     text-decoration-thickness: 1px;
