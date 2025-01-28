@@ -160,7 +160,7 @@ dl {
     
 }
 dl dt {
-    font-weight: bold;
+    font-weight: bolder;
     text-decoration-line: underline;
     text-decoration-color: #6B0F1A;
     text-decoration-thickness: 1px;
