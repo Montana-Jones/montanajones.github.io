@@ -49,12 +49,12 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 10px 0;
+    padding: 4px 0;
     margin: 0;
     box-sizing: border-box;
     background-color: #223127;
     
-    font-size: 24px;
+    font-size: 20px;
     font-family: "La Belle Aurore", serif;
     color: #FDF9ED;
     box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.3);
@@ -62,8 +62,6 @@ footer {
 
 footer a {
     text-decoration: none;
-    font-size: 16px;
-    font-family: "La Belle Aurore", serif;
     color: #FDF9ED;
     margin: 8px;
 }
@@ -96,10 +94,14 @@ footer a:hover {
 }
 
 .splash p {
-    font-size: 20px;
-    font-family: 'Garamond', serif;
-    font-weight: bold;
-    padding: 10px 20px;
+    font-size: 32px;
+    font-family: "La Belle Aurore", serif;
+    padding: 0px 20px;
+}
+
+#smaller {
+    font-size: 24px;
+    padding: 0 200px;
 }
 
 /* Horizontal Rules */
@@ -120,14 +122,14 @@ section h2 {
     font-size: 32px;
     font-family: 'Prata', serif;
     color: #4D2A17;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 30px;
 }
 
 /* Paragraph Styles */
 section p {
     font-size: 20px;
     font-family: 'Garamond', serif;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 40px;
 }
 
 /* link styles */
@@ -146,7 +148,7 @@ section a:hover {
 ul {
     font-size: 20px;
     font-family: 'Garamond', serif;
-    padding: 0 0 0 50px;
+    padding: 0 70px;
 }
 
 dl {
@@ -154,7 +156,7 @@ dl {
     grid-template-columns: 2fr 1fr;
     font-size: 20px;
     font-family: 'Garamond', serif;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 40px;
     gap: 20px;
     
 }
@@ -163,11 +165,11 @@ dl dt {
     text-decoration-line: underline;
     text-decoration-color: #6B0F1A;
     text-decoration-thickness: 1px;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 40px;
 }
 
 dl dd {
-    padding: 0 0 0 20px;
+    padding: 0;
     font-style: italic;
 }
 
@@ -268,4 +270,9 @@ h3 {
 
 #center {
     text-align: center;
+}
+
+#stick {
+    position: fixed;
+    bottom: 0;
 }
