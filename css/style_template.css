@@ -45,6 +45,7 @@ nav a:hover {
 /* Footer Styles */
 footer {
     display: flex;
+    position: sticky;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -147,9 +148,12 @@ ul {
 }
 
 dl {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     font-size: 20px;
     font-family: 'Garamond', serif;
     padding: 0 0 0 10px;
+    
 }
 dl dt {
     text-decoration-line: underline;
