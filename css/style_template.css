@@ -98,6 +98,9 @@ footer a:hover {
     font-size: 20px;
     font-family: 'Garamond', serif;
     font-weight: bold;
+    text-decoration: solid;
+    text-decoration-thickness: 1px;
+    text-decoration-color: black;
     padding: 10px 20px;
 }
 
