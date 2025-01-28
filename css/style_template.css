@@ -114,6 +114,8 @@ hr {
 section {
     padding: 20px;
     margin: 20px 0;
+    border-bottom: #4D2A17;
+    border-width: 1px;
 }
 
 /* Section Headings */
