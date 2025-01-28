@@ -79,6 +79,7 @@ footer a:hover {
 .splash {
     text-align: center;
     padding-bottom: 16px;
+    font-weight: bold;
     margin: 0;
     padding: 0;
 }
