@@ -4,6 +4,7 @@ body {
     width: 100%;
     padding: 0;
     margin: 0;
+    line-height: 1.3;
 }
 
 /* Nav Styles */
@@ -11,6 +12,7 @@ nav {
     display: flex;
     flex-wrap: nowrap;
     position: sticky;
+    z-index: 100;
     top: 0;
     width: 100%;
     justify-content: space-between;
@@ -36,9 +38,9 @@ nav a {
 }
 
 nav a:hover {
-    color: #ECC046;
+    color: #DAA520;
     text-decoration-line: underline;
-    text-decoration-color: #ECC046;
+    text-decoration-color: #DAA520;
     text-decoration-thickness: 1px;
 }
 
@@ -67,9 +69,9 @@ footer a {
 }
 
 footer a:hover {
-    color: #ECC046;
+    color: #DAA520;
     text-decoration-line: underline;
-    text-decoration-color: #ECC046;
+    text-decoration-color: #DAA520;
     text-decoration-thickness: 1px;
 }
 
@@ -80,10 +82,12 @@ footer a:hover {
     padding-bottom: 16px;
     margin: 0;
     padding: 0;
+    line-height: 1.1;
 }
 
 .splash h1 {
     text-align: center;
+    margin-top: 16px;
 }
 
 .splash img {
@@ -138,9 +142,9 @@ section a {
     color: black;
 }
 section a:hover {
-    color: #ECC046;
+    color: #DAA520;
     text-decoration-line: underline;
-    text-decoration-color: #ECC046;
+    text-decoration-color: #DAA520;
     text-decoration-thickness: 1px;
 }
 
@@ -163,7 +167,7 @@ dl {
 dl dt {
     font-weight: bold;
     text-decoration-line: underline;
-    text-decoration-color: #6B0F1A;
+    text-decoration-color: #DAA520;
     text-decoration-thickness: 1px;
     padding: 0 0 0 40px;
 }
@@ -178,13 +182,21 @@ dl dd {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    padding: 0 10px 60px 10px;
+    padding: 20px 20px 60px 20px;
 }
 
 .card {
+    position: relative;
     padding: 10px;
+    margin: 10px;
     border: 2px solid #4D2A17;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    background-color: #FDF9ED;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    z-index: 10;
 }
 
 .card img {
@@ -197,8 +209,16 @@ dl dd {
 .card h3 {
     font-size: 24px;
     font-family: 'Prata', serif;
-    color: #CB9E36;
+    color: #4D2A17;
     padding: 0;
+}
+
+.card a {
+    color: #4D2A17;
+}
+
+.card a:hover {
+    color: #DAA520;
 }
 
 /* Contact Page Styles */
@@ -223,7 +243,7 @@ form input, form textarea {
 
 form input:focus, form textarea:focus {
     width: 125%;
-    border: 2px solid #CB9E36;
+    border: 2px solid #DAA520;
     outline: none;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     background-color: default;
@@ -240,7 +260,7 @@ form button {
 form button:hover {
     font-size: 120%;
     font-weight: bold;
-    border: 2px solid #CB9E36;
+    border: 2px solid #DAA520;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -250,7 +270,7 @@ h1 {
     text-align: center;
     margin: 0;
     padding: 10px 0px 0px 10px;
-    color: #CB9E36;
+    color: #DAA520;
 }
 
 h2 {
@@ -263,7 +283,7 @@ h2 {
 h3 {
     font-size: 32px;
     font-family: 'La Belle Aurore', serif;
-    color: #CB9E36;
+    color: #DAA520;
     text-align: center;
     padding: 0 0 22% 0;
 }
