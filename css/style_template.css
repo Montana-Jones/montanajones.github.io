@@ -103,11 +103,7 @@ footer a:hover {
     padding: 0px 20px;
 }
 
-#smaller {
-    font-size: 24px;
-    padding: 0 200px;
-    font-family: "Garamond", serif;
-}
+
 
 /* Horizontal Rules */
 hr {
@@ -296,4 +292,10 @@ h3 {
 #stick {
     position: fixed;
     bottom: 0;
+}
+
+#smaller {
+    font-size: 24px;
+    padding: 0 200px;
+    font-family: "Garamond", serif;
 }
