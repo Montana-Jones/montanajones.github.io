@@ -99,11 +99,14 @@ footer a:hover {
 
 .splash p {
     font-size: 32px;
-    font-family: "Garamond", serif;
+    font-family: "La Belle Aurore", serif;
     padding: 0px 20px;
 }
 
-
+#smaller {
+    font-size: 24px;
+    padding: 0 200px;
+}
 
 /* Horizontal Rules */
 hr {
@@ -292,10 +295,4 @@ h3 {
 #stick {
     position: fixed;
     bottom: 0;
-}
-
-#smaller {
-    font-size: 24px;
-    padding: 0 200px;
-    font-family: "Garamond", serif;
 }
